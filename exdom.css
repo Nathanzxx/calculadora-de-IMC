@@ -1,0 +1,26 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+div {
+    border: solid 1px black;
+    border-radius: 32px;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    height: 330px;
+    width: 380px;
+    color: white;
+    background-color:black ;
+}
+
