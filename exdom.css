@@ -2,14 +2,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-div {
-    position: absolute;
-
-    top: 50%;
-
-    left: 50%;
-
-    transform: translate(-50%, -50%);
+main{
+    background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(173,0,171,1) 0%, rgba(15,51,92,1) 90% );
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,1,48,1) 5%, rgba(4,2,55,1) 8%, rgba(5,3,65,1) 12%, rgba(5,3,70,1) 14%, rgba(6,4,80,1) 18%, rgba(6,5,87,1) 21%, rgba(7,6,97,1) 25%, rgba(8,7,104,1) 28%, rgba(9,8,116,1) 33%, rgba(9,9,121,1) 35%, rgba(8,28,133,1) 41%, rgba(8,37,139,1) 44%, rgba(7,53,150,1) 49%, rgba(6,68,160,1) 54%, rgba(6,80,168,1) 58%, rgba(6,86,172,1) 60%, rgba(5,99,181,1) 64%, rgba(4,112,189,1) 68%, rgba(4,121,195,1) 71%, rgba(4,133,203,1) 75%, rgba(3,152,216,1) 81%, rgba(3,158,220,1) 83%, rgba(0,212,255,1) 100%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 div {
@@ -21,6 +20,7 @@ div {
     height: 330px;
     width: 380px;
     color: white;
-    background-color:black ;
-}
+    /* background-image: linear-gradient( 179.7deg,  rgba(249,21,215,1) 1.1%, rgba(22,0,98,1) 99% ); */
+    /* background-image: linear-gradient( 108.7deg,  rgba(221,22,224,1) 11%, rgba(111,22,190,1) 88.2% ); */
+    background-color: black;
 
